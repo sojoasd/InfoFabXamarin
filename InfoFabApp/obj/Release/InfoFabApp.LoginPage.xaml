@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+		xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+		x:Class="InfoFabApp.LoginPage"
+		Title="LoginPage">
+
+	<Grid
+		HorizontalOptions="FillAndExpand" 
+		VerticalOptions="Center"
+		Padding="30,0,30,0">
+		
+		<Grid.RowDefinitions>
+	      <RowDefinition Height="Auto"/>
+	      <RowDefinition Height="Auto"/>
+	      <RowDefinition Height="Auto"/>
+	      <RowDefinition Height="Auto"/>
+	      <RowDefinition Height="Auto"/>
+	      <RowDefinition Height="Auto"/>
+	    </Grid.RowDefinitions>
+		
+    	<Label Text="Hello"
+           FontSize="40"
+           Grid.Row="0"
+           HorizontalTextAlignment="Center"
+       	/>
+
+		<Label Text=""
+           FontSize="20"
+           Grid.Row="1"
+           HorizontalTextAlignment="Center"
+       	/>
+		
+		<Entry Placeholder="帳號"
+				x:Name="entryAccount"
+				Grid.Row="2"
+				HorizontalOptions="FillAndExpand"
+		/>
+      	
+		
+		<Entry Placeholder="密碼"
+				x:Name="entryPassword"
+				Grid.Row="3"
+				IsPassword="True"
+				HorizontalOptions="FillAndExpand"
+		/>
+		<Button Text="登入"
+				x:Name="loginBtn"
+				Grid.Row="4"
+				HorizontalOptions="FillAndExpand"
+		/>
+		
+	</Grid>
+
+<!--	<ActivityIndicator WidthRequest="110" HeightRequest="70" IsRunning="{Binding IsLoading}" IsVisible="{Binding IsLoading}" Color="Black" />-->
+	<!--<ContentView x:Name="overlay" IsVisible="{Binding IsLoading}" BackgroundColor="#C0808080" Padding="10, 0">
+		<ActivityIndicator WidthRequest="1" HeightRequest="1" IsRunning="{Binding IsLoading}" IsVisible="{Binding IsLoading}" Color="Black" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+	</ContentView>-->
+	<!--<ActivityIndicator IsVisible="false" IsRunning="false" BackgroundColor="Black" Opacity="0.5" x:Name="MaskView" Color="White" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>-->
+</ContentPage>

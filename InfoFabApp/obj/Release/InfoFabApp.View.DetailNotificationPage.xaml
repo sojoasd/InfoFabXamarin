@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+			xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+			x:Class="InfoFabApp.DetailNotificationPage"
+			xmlns:converter="clr-namespace:InfoFabApp"
+			xmlns:local="clr-namespace:InfoFabApp;assembly=InfoFabApp"
+			Title="">
+	
+	<ContentPage.BindingContext>
+		<local:NotificationItem />
+	</ContentPage.BindingContext>
+	
+	<ContentPage.Resources>
+		<ResourceDictionary>
+			<converter:FavoriteBooleanConverter x:Key="FavoriteBooleanConverter"/>
+		</ResourceDictionary>
+	</ContentPage.Resources>
+
+	<ContentPage.ToolbarItems>
+		<ToolbarItem Clicked="OnDeleteItem" CommandParameter="{Binding .}" Icon="delete.png"/>
+	</ContentPage.ToolbarItems>
+	
+	<ContentPage.Title>
+		明細頁面
+	</ContentPage.Title>
+
+	<ContentPage.Content>
+		<Grid HorizontalOptions="FillAndExpand" VerticalOptions="StartAndExpand" Padding="30,15,30,0"
+				>
+			<Grid.RowDefinitions>
+				<RowDefinition Height="30"/>
+				<RowDefinition Height="2"/>
+				<RowDefinition Height="15"/>
+				<RowDefinition Height="20"/>
+				<RowDefinition Height="*"/>
+				<RowDefinition Height="250"/>
+				<RowDefinition Height="*"/>
+			</Grid.RowDefinitions>
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition Width="*"/>
+				<ColumnDefinition Width="*"/>
+				<ColumnDefinition Width="*"/>
+			</Grid.ColumnDefinitions>
+
+			<ContentView Padding="10,0,0,0" Grid.Row="0" Grid.ColumnSpan="2" >
+				<Label Text="{Binding Title}" FontSize="20" />
+			</ContentView>
+
+			<ContentView VerticalOptions="Center" Grid.Row="0" Grid.Column="2" >
+				<Label x:Name="SymbolStar" Text="{Binding Path=IsFavorite, Mode=TwoWay, Converter={StaticResource FavoriteBooleanConverter}" FontSize="20" TextColor="#FFCC22" VerticalOptions="CenterAndExpand" HorizontalOptions="EndAndExpand">
+					<Label.GestureRecognizers>
+						<TapGestureRecognizer NumberOfTapsRequired="1" CommandParameter="{Binding Title}" Tapped="Tgr_Tapped" />
+					</Label.GestureRecognizers>
+				</Label>
+			</ContentView>
+			
+			<ContentView Grid.Row="1" Grid.ColumnSpan="3">
+				<BoxView Color="#33CCFF" HeightRequest="1" WidthRequest="1" />
+			</ContentView>
+			
+			<ContentView HorizontalOptions="End" Grid.Row="2" Grid.Column="2" >
+				<Label Text="{Binding ReceiveTime}" FontSize="10" />
+			</ContentView>
+
+			<ContentView Padding="5,0,0,0" Grid.Row="3" Grid.Column="0">
+				<Label Text="{Binding FromName, StringFormat='{0} :'}" />
+			</ContentView>
+
+			<ContentView Padding="5,0,0,0" Grid.Row="4" Grid.ColumnSpan="3">
+				<Label Text="{Binding Content}" />
+			</ContentView>
+
+			<ContentView Grid.Row="5" Grid.ColumnSpan="3">
+				<Image Source="sick.jpeg" MinimumHeightRequest="249"/>
+			</ContentView>
+
+			<Button Grid.Row="6" Grid.ColumnSpan="3" Text="網頁連結" VerticalOptions="Center" HorizontalOptions="FillAndExpand" />
+			
+		</Grid>
+	</ContentPage.Content>
+</ContentPage>

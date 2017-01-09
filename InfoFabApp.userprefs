@@ -1,0 +1,23 @@
+﻿<Properties StartupConfiguration="{E2CE8861-97C4-4F84-BBA1-62FF7DB06F21}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="InfoFabApp/LoginPage.xaml.cs">
+    <Files>
+      <File FileName="InfoFabApp/Model/NotificationItem.cs" Line="17" Column="44" />
+      <File FileName="InfoFabApp/View/MasterNotificationPage.xaml.cs" Line="55" Column="1" />
+      <File FileName="InfoFabApp/View/SearchNotificationPage.xaml.cs" Line="70" Column="1" />
+      <File FileName="InfoFabApp/View/DetailNotificationPage.xaml.cs" Line="22" Column="4" />
+      <File FileName="InfoFabApp/LoginPage.xaml.cs" Line="18" Column="4" />
+      <File FileName="InfoFabApp/MenuPage.xaml.cs" Line="35" Column="25" />
+      <File FileName="InfoFabApp/MainPage.xaml.cs" Line="11" Column="47" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <DisabledProjects>
+    <String>iOS/InfoFabApp.iOS.csproj</String>
+  </DisabledProjects>
+  <MonoDevelop.Ide.ItemProperties.InfoFabApp.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.XamarinDroid6.0" />
+</Properties>

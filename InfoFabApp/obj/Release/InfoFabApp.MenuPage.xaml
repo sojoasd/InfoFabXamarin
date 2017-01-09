@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+			xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+			x:Class="InfoFabApp.MenuPage"
+			Title="功能清單">
+	
+	<StackLayout>
+		<StackLayout Orientation="Horizontal" VerticalOptions="Start" HeightRequest="25" BackgroundColor="#cccccc">
+			<Label Text="" />
+		</StackLayout>
+
+		<StackLayout>
+			<ListView x:Name="MenuItems" VerticalOptions="Fill" RowHeight="45">
+				<ListView.ItemTemplate>
+					<DataTemplate>
+						<ViewCell>
+							<StackLayout Orientation="Horizontal" Padding="10,5,10,5">
+								<Label Text=" " WidthRequest="5" />
+								<Label Text="{Binding MenuIcon}" FontSize="{Binding MenuFontSize}" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" />
+								<Label Text=" " WidthRequest="5" />
+								<Label Text="{Binding MenuName}" VerticalTextAlignment="Center" />
+							</StackLayout>
+						</ViewCell>
+					</DataTemplate>
+				</ListView.ItemTemplate>
+			</ListView>
+		</StackLayout>
+
+		<StackLayout Orientation="Horizontal" Padding="10,0,10,20" VerticalOptions="EndAndExpand">
+			<Label Text=" " WidthRequest="5" />
+			<Label Text="&#xf08b;" FontSize="15" FontFamily="FontAwesome" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" />
+			<Label Text=" " WidthRequest="5" />
+			<Label Text="登出" VerticalTextAlignment="Center" />
+		</StackLayout>
+	</StackLayout>
+	
+</ContentPage>
