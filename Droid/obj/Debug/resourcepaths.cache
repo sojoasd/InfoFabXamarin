@@ -9,6 +9,10 @@
     <AdditionalAndroidResourcePath>/Users/Zeal/.local/share/Xamarin/Xamarin.Android.Support.Design/23.3.0.0/embedded</AdditionalAndroidResourcePath>
     <AdditionalAndroidResourcePath>/Users/Zeal/.local/share/Xamarin/Xamarin.Android.Support.v7.CardView/23.3.0.0/embedded</AdditionalAndroidResourcePath>
     <AdditionalAndroidResourcePath>/Users/Zeal/.local/share/Xamarin/Xamarin.Android.Support.v7.MediaRouter/23.3.0.0/embedded</AdditionalAndroidResourcePath>
+    <AdditionalAndroidResourcePath>/Users/Zeal/.local/share/Xamarin/Xamarin.GooglePlayServices.Basement/8.4.0/embedded</AdditionalAndroidResourcePath>
+    <AdditionalAndroidResourcePath>/Users/Zeal/.local/share/Xamarin/Xamarin.GooglePlayServices.Measurement/8.4.0/embedded</AdditionalAndroidResourcePath>
+    <AdditionalAndroidResourcePath>/Users/Zeal/.local/share/Xamarin/Xamarin.GooglePlayServices.Base/8.4.0/embedded</AdditionalAndroidResourcePath>
+    <AdditionalAndroidResourcePath>/Users/Zeal/.local/share/Xamarin/Xamarin.GooglePlayServices.Gcm/8.4.0/embedded</AdditionalAndroidResourcePath>
   </AdditionalAndroidResourcePaths>
   <AdditionalJavaLibraryReferences>
     <AdditionalJavaLibraryReference>/Users/Zeal/.local/share/Xamarin/Xamarin.Android.Support.v4/23.3.0.0/embedded/classes.jar</AdditionalJavaLibraryReference>
@@ -21,6 +25,10 @@
     <AdditionalJavaLibraryReference>/Users/Zeal/.local/share/Xamarin/Xamarin.Android.Support.v7.CardView/23.3.0.0/embedded/classes.jar</AdditionalJavaLibraryReference>
     <AdditionalJavaLibraryReference>/Users/Zeal/.local/share/Xamarin/Xamarin.Android.Support.v7.MediaRouter/23.3.0.0/embedded/classes.jar</AdditionalJavaLibraryReference>
     <AdditionalJavaLibraryReference>/Users/Zeal/.local/share/Xamarin/Xamarin.Android.Support.v7.MediaRouter/23.3.0.0/embedded/libs/internal_impl-23.3.0.jar</AdditionalJavaLibraryReference>
+    <AdditionalJavaLibraryReference>/Users/Zeal/.local/share/Xamarin/Xamarin.GooglePlayServices.Basement/8.4.0/embedded/classes.jar</AdditionalJavaLibraryReference>
+    <AdditionalJavaLibraryReference>/Users/Zeal/.local/share/Xamarin/Xamarin.GooglePlayServices.Measurement/8.4.0/embedded/classes.jar</AdditionalJavaLibraryReference>
+    <AdditionalJavaLibraryReference>/Users/Zeal/.local/share/Xamarin/Xamarin.GooglePlayServices.Base/8.4.0/embedded/classes.jar</AdditionalJavaLibraryReference>
+    <AdditionalJavaLibraryReference>/Users/Zeal/.local/share/Xamarin/Xamarin.GooglePlayServices.Gcm/8.4.0/embedded/classes.jar</AdditionalJavaLibraryReference>
   </AdditionalJavaLibraryReferences>
   <AdditionalNativeLibraryReferences />
 </Paths>

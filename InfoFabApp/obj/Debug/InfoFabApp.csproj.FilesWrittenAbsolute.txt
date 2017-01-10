@@ -17,10 +17,10 @@
 /Users/Zeal/XamarinSites/InfoFabXamarin/InfoFabApp/bin/Debug/InfoFabApp.dll
 /Users/Zeal/XamarinSites/InfoFabXamarin/InfoFabApp/obj/Debug/InfoFabApp.dll
 /Users/Zeal/XamarinSites/InfoFabXamarin/InfoFabApp/obj/Debug/InfoFabApp.dll.mdb
-/Users/Zeal/XamarinSites/InfoFabXamarin/InfoFabApp/bin/Debug/Xamarin.Forms.Core.dll
-/Users/Zeal/XamarinSites/InfoFabXamarin/InfoFabApp/bin/Debug/Xamarin.Forms.Platform.dll
-/Users/Zeal/XamarinSites/InfoFabXamarin/InfoFabApp/bin/Debug/Xamarin.Forms.Xaml.dll
 /Users/Zeal/XamarinSites/InfoFabXamarin/InfoFabApp/bin/Debug/System.Reactive.Interfaces.dll
 /Users/Zeal/XamarinSites/InfoFabXamarin/InfoFabApp/bin/Debug/System.Reactive.Core.dll
 /Users/Zeal/XamarinSites/InfoFabXamarin/InfoFabApp/bin/Debug/System.Reactive.Linq.dll
 /Users/Zeal/XamarinSites/InfoFabXamarin/InfoFabApp/bin/Debug/System.Reactive.PlatformServices.dll
+/Users/Zeal/XamarinSites/InfoFabXamarin/InfoFabApp/bin/Debug/Xamarin.Forms.Core.dll
+/Users/Zeal/XamarinSites/InfoFabXamarin/InfoFabApp/bin/Debug/Xamarin.Forms.Platform.dll
+/Users/Zeal/XamarinSites/InfoFabXamarin/InfoFabApp/bin/Debug/Xamarin.Forms.Xaml.dll

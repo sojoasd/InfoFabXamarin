@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Xamarin.Forms;
+using System.Net;
 
 namespace InfoFabApp
 {
@@ -26,7 +27,9 @@ namespace InfoFabApp
 
 			await HandleNotificationData.RefreshNotificationData();
 
-			Application.Current.MainPage = new MainPage();
+			HttpStatusCode ss = DependencyService.Get<IDeviceNotification>().GetToken("123","456");
+
+			//Application.Current.MainPage = new MainPage();
 
 			//Application.Current.MainPage = new NavigationPage(new MainPage());
 

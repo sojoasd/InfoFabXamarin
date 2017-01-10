@@ -1,18 +1,39 @@
 ﻿<Properties StartupConfiguration="{E2CE8861-97C4-4F84-BBA1-62FF7DB06F21}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="InfoFabApp/LoginPage.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Droid/Model/DeviceAndroidPNS.cs">
     <Files>
-      <File FileName="InfoFabApp/Model/NotificationItem.cs" Line="17" Column="44" />
-      <File FileName="InfoFabApp/View/MasterNotificationPage.xaml.cs" Line="55" Column="1" />
-      <File FileName="InfoFabApp/View/SearchNotificationPage.xaml.cs" Line="70" Column="1" />
-      <File FileName="InfoFabApp/View/DetailNotificationPage.xaml.cs" Line="22" Column="4" />
-      <File FileName="InfoFabApp/LoginPage.xaml.cs" Line="18" Column="4" />
-      <File FileName="InfoFabApp/MenuPage.xaml.cs" Line="35" Column="25" />
-      <File FileName="InfoFabApp/MainPage.xaml.cs" Line="11" Column="47" />
+      <File FileName="InfoFabApp/LoginPage.xaml.cs" Line="25" Column="25" />
+      <File FileName="InfoFabApp/Model/IDeviceNotification.cs" Line="10" Column="1" />
+      <File FileName="Droid/Model/DeviceAndroidPNS.cs" Line="19" Column="44" />
+      <File FileName="Droid/Services/GcmService.cs" Line="17" Column="125" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="InfoFabApp" expanded="True">
+            <Node name="InfoFabApp" expanded="True">
+              <Node name="Model" expanded="True" />
+              <Node name="LoginPage.xaml" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True" />
+              <Node name="MenuPage.xaml" expanded="True" />
+            </Node>
+            <Node name="InfoFabApp.Droid" expanded="True">
+              <Node name="ComponentReferenceFolder" expanded="True" />
+              <Node name="Packages" expanded="True" />
+              <Node name="Model" expanded="True">
+                <Node name="DeviceAndroidPNS.cs" selected="True" />
+              </Node>
+              <Node name="Services" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/Zeal/XamarinSites/InfoFabXamarin/Droid/Model/DeviceAndroidPNS.cs" relfile="Droid/Model/DeviceAndroidPNS.cs" line="24" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
