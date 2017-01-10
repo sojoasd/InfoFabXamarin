@@ -18,9 +18,9 @@ namespace InfoFabApp.Droid
 	[IntentFilter(new string[] { Gcm.Client.Constants.INTENT_FROM_GCM_LIBRARY_RETRY }, Categories = new string[] { "com.infofabapp" })]
 	public class Constans : GcmBroadcastReceiverBase<GcmService>
 	{ 
-		public static string[] SENDER_IDS = { "1079275836409" };
-		public const string HUB_NAME = "PushMsgHub";
-		public const string HUB_LISTEN_CONN = "Endpoint=sb://ikgnotify.servicebus.windows.net/;SharedAccessKeyName=DefaultListenSharedAccessSignature;SharedAccessKey=UCiJXR3l62HE8uQ7Ax6JhWkRqwDNHEaepXeyBPs+OUo=";
+		public static string[] SENDER_IDS = { "" };
+		public const string HUB_NAME = "";
+		public const string HUB_LISTEN_CONN = "";
 	}
 
 	[Service]
